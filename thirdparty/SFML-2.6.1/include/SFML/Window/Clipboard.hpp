@@ -97,7 +97,8 @@ public:
 ///
 /// // or use it in the event loop
 /// sf::Event event;
-/// while(window.pollEvent(event))
+/// while(window.
+/// (event))
 /// {
 ///     if(event.type == sf::Event::Closed)
 ///         window.close();

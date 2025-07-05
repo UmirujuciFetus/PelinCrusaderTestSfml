@@ -87,10 +87,4 @@ target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURC
 target_link_libraries("${CMAKE_PROJECT_NAME}" 
 	sfml-graphics 
 	sfml-window 
-	sfml-system 
-	sfml-audio 
-	sfml-network
-	imgui
-	ImGui-SFML::ImGui-SFML
-	glad
 )
